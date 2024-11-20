@@ -17,7 +17,7 @@ public class Cheers {
                 if(position%2==0) ch=letters.charAt(position+1);
 
                 if(ch == 'A' || ch == 'E'|| ch == 'F'|| ch == 'H'|| ch == 'H'|| ch == 'I'|| ch == 'L'|| ch == 'M'|| ch == 'N'|| ch == 'O'|| ch == 'R'|| ch == 'S'|| ch == 'X') {
-                        System.out.println("Give me an "+ cheersWord.charAt(i)+": "+cheersWord.charAt(i)+"!");
+                        System.out.println("Give me an "+ ch+": "+ch+"!");
                 }
                 else System.out.println("Give me a  "+ ch+": "+ch+"!");
                 capitalWord += ch ; 
