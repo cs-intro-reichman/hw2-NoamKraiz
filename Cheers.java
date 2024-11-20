@@ -11,7 +11,7 @@ public class Cheers {
                 if(cheersWord.charAt(i) == 'A' || cheersWord.charAt(i) == 'E'|| cheersWord.charAt(i) == 'F'|| cheersWord.charAt(i) == 'H'|| cheersWord.charAt(i) == 'H'|| cheersWord.charAt(i) == 'I'|| cheersWord.charAt(i) == 'L'|| cheersWord.charAt(i) == 'M'|| cheersWord.charAt(i) == 'N'|| cheersWord.charAt(i) == 'O'|| cheersWord.charAt(i) == 'R'|| cheersWord.charAt(i) == 'S'|| cheersWord.charAt(i) == 'X') {
                 System.out.println("Give me an "+ cheersWord.charAt(i)+": "+cheersWord.charAt(i)+"!");
                 }
-                else System.out.println("Give me a "+ cheersWord.charAt(i)+": "+cheersWord.charAt(i)+"!");
+                else System.out.println("Give me a  "+ cheersWord.charAt(i)+": "+cheersWord.charAt(i)+"!");
             }
             System.out.println("What does that spell?");
 
