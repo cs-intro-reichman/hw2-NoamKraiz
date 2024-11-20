@@ -13,6 +13,7 @@ public class Cheers {
                 }
                 else System.out.println("Give me a "+ cheersWord.charAt(i)+": "+cheersWord.charAt(i)+"!");
             }
+            System.out.println("What does that spell?");
 
             int j=0;
             while (j<repet) {
