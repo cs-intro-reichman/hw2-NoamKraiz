@@ -5,9 +5,7 @@ public class Collatz {
 
 		int seed = Integer.parseInt(args[0]);
 		String mode = args[1];
-
 		int count =1;
-
 		if(mode.charAt(0) == 'c') { 
 			int times =seed;
 			String concise = seed+" ";
@@ -21,10 +19,7 @@ public class Collatz {
 			seed=times;
 		}
 		else { 
-
 			int times =1;
-
-		    
 		    for(int i=2; i<=seed+1; i++){
 			    String concise = times+" ";
 			
@@ -37,11 +32,9 @@ public class Collatz {
 			    System.out.println(concise+"("+count+")");
 				times =i;
 				count =1;
-
 		    }
-			System.out.println("Every one of the first "+seed+" hailstone sequences reached 1.");
 	    }   
-			
+		System.out.println("Every one of the first "+seed+" hailstone sequences reached 1.");
 	}
 }
 
