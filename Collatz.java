@@ -23,7 +23,7 @@ public class Collatz {
 			int times =1;
 
 		    
-		    for(int i=2; i<=seed+1; i++){
+		    for(int i=2; i<seed+1; i++){
 			    String concise = times+" ";
 			
 			    do {
